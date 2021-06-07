@@ -99,7 +99,7 @@ li {list-style:none;}
     font-size:22px;
     font-weight:bold
 }
-.cont div dd {
+.cont > div > dd {
   
     margin:25px 40px 40px;
     font-size:16px;
@@ -113,6 +113,7 @@ li {list-style:none;}
     
 }
 .cont02 {
+    font-family: 'Noto Sans KR', sans-serif;
     margin-top:100px;
     height: 545px;
     background-color: gold;
@@ -124,20 +125,78 @@ li {list-style:none;}
     clear: both;
 }
 .cont02 .cont02_in1 {
+  background-color: rgb(245, 233, 233);
+    padding-left:350px;
     text-align: left;
     float:left;
-    background-color: grey;
-   width:837px;
-    height:545px;
+    width:903px;
+    height:550px;
     white-space: pre-line;
-
+    box-sizing:border-box;
+    
 }
 .cont02 .cont02_img {
+    width:1000px;
     height: 545px;
     float:right;
-    background-color: hotpink;
+ 
 }
-.cont02 img{
-    size: 100%;
+.cont02_in1 span {
+    font-size:40px;
+    font-weight:bold;
+}
+#one {
+    margin-top:50px;
+    font-size:18px;
+}
+#two {
+    /* margin:5px 0; */
+    font-size:22px;
+}
+#dd  {
+    /* background-color: rgb(196, 183, 183); */
+    font-size:16px;
+    width:700px;
+    padding-right:60px;
+    /* box-sizing: border-box; */
+    
+}
+.cont02_in1 input[type="button"]{
+    background-color:white;
+    border-radius:20px;
+    border:1px solid transparent;
+    width:150px;
+    height: 40px;
+    font-size:16px;
+    margin-top:20px;
 }
 
+.footer {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:40px;
+    background-color: grey;
+    color:white;
+    font-size:15px;
+    position: relative;
+    
+}
+.footer div {
+    /* background-color: red; */
+    width:1200px;
+    margin:0 auto;
+    
+}
+
+.footer p:nth-child(2){
+    position:absolute;
+    top:40px;
+    left:780px;
+}
+.footer p:nth-child(3){
+    position: absolute;
+    top:40px;
+    left:890px;
+}
+.footer p:last-child{
+    padding-top:10px;
+}
